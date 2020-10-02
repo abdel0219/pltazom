@@ -1,0 +1,31 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Traductor de Idioma platzon",
+  "main": "dist/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test":  "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdel0219/pltazom.git"
+  },
+  "keywords": [
+    "platzom",
+    "platzi",
+    "fundamentos",
+    "de",
+    "javascript",
+    "js"
+  ],
+  "author": "Abdel Flores <labdelf@gmail.com> (https://github.com/abdel0219/pltazom)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
